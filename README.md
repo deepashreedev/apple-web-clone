@@ -1,12 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📱 Apple Website Homepage Clone
+A pixel-perfect clone of the official Apple website homepage, built using React and Tailwind CSS. This project showcases smooth, responsive UI design and clean layout techniques inspired by Apple’s elegant aesthetic.
 
-Currently, two official plugins are available:
+🔧 Tech Stack:
+⚛️ React.js – for dynamic UI components and modular architecture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Tailwind CSS – for utility-first styling and responsive design
 
-## Expanding the ESLint configuration
+🌐 Vite – for fast development and lightning-fast builds
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Responsive Design – optimized for mobile, tablet, and desktop views
+
+✨ Features:
+Apple-style navigation bar with smooth hover effects
+
+Hero section mimicking Apple’s product showcase
+
+Responsive product tiles and image overlays
+
+Mobile-first layout with Tailwind’s utility classes
+
+Clean and semantic HTML structure
+
+📸 Preview:
+Add a screenshot or live demo GIF here
+
+🔗 Live Demo:
+[View Deployed Site on Vercel](https://apple-web-clone-nu.vercel.app/)
+
+📌 What I Learned:
+Recreating a real-world UI with precision using Tailwind
+
+Handling layout responsiveness across devices
+
+Improving my component-based architecture in React
+
+Gaining confidence in replicating designs with clean code
+
