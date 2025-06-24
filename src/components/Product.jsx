@@ -38,11 +38,9 @@ const Product = () => {
   {productData.map(({ id, title, desc, bgImage }) => (
     <div
       key={id}
-      className="relative min-h-[80vh] xs:min-h-[50vh] bg-cover bg-center rounded-xl shadow-lg overflow-hidden flex items-start justify-center"
+      className="min-h-[40vh] md:h-[47vh] lg:h-[45vh] xl:h-[80vh]  bg-cover bg-center rounded-xl shadow-lg overflow-hidden flex items-start justify-center"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      {/* Optional dark overlay */}
-      <div className="absolute inset-0 bg-black/10"></div>
 
       {/* Card Content at Top */}
       <div className="relative px-4 xs:px-2 pt-6 xs:pt-4 ">

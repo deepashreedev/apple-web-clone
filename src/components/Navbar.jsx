@@ -70,11 +70,11 @@ function Navbar() {
 
 <>
 
-        <nav className="bg-zinc-100 p-3 flex items-center text-xs justify-between md:justify-center sticky top-0 z-10">
+        <nav className="bg-zinc-100 p-3 flex items-center text-xs justify-between lg:justify-center sticky top-0 z-10">
             <div className="text-lg mr-8">
                 <FaApple />
             </div>
-            <ul className="  gap-10 hidden md:flex items-center ">
+            <ul className="  gap-10 hidden lg:flex items-center ">
                 {links.map((link) => (
                     <li key={link} className="hover:text-gray-600 cursor-pointer">{link}</li>
                 ))}
@@ -95,6 +95,6 @@ function Navbar() {
 
     );
 }
-// className="hidden md:flex gap-6"  flex justify-between items-center text-sm
+
 
 export default Navbar;
