@@ -6,10 +6,10 @@ function Herosec2(){
 
     return(
 
-<div className=" w-full min-h-[50vh] md:h-[45vh]  lg:h-[50vh] xl:h-[80vh]  bg-cover bg-center flex flex-col items-center  mt-4  " style={{backgroundImage:`url(${bgimage})`}}>
+<div className=" w-full min-h-[50vh] md:h-[50vh]  lg:h-[55vh] xl:h-[80vh]  bg-cover bg-center flex flex-col items-center  mt-4  " style={{backgroundImage:`url(${bgimage})`}}>
 
-<h1 className="text-4xl sm:text-5xl md:text-6xl  font-semibold mt-5 pt-5">MacBook Air</h1>
-<h2 className="text-lg sm:text-xl md:text-2xl  font-normal mt-3">Sky blue colour.</h2>
+<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold mt-5 pt-5 ">MacBook Air</h1>
+<h2 className="text-lg sm:text-xl md:text-2xl  font-normal mt-3 ">Sky blue colour.</h2>
 <h2 className="text-lg sm:text-xl md:text-2xl font-normal">Sky high performance with M4.</h2>
 
 <div className="container2 ">

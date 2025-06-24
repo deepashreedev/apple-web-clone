@@ -38,7 +38,7 @@ const Product = () => {
   {productData.map(({ id, title, desc, bgImage }) => (
     <div
       key={id}
-      className="min-h-[40vh] md:h-[47vh] lg:h-[45vh] xl:h-[80vh]  bg-cover bg-center rounded-xl shadow-lg overflow-hidden flex items-start justify-center"
+      className="min-h-[60vh] sm:h-[60vh] md:h-[45vh]  lg:h-[60vh] xl:h-[80vh] md:w-[full] bg-cover bg-center rounded-xl shadow-lg overflow-hidden flex items-start justify-center"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
 
@@ -71,3 +71,4 @@ const Product = () => {
 };
 
 export default Product;
+
